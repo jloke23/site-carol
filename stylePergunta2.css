@@ -1,0 +1,85 @@
+body{
+    background-image: url('fundo pergunta 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+background-color: #aa0101;
+font-family: Georgia, serif;
+    }
+    a{
+        list-style-type: none;
+
+        color: white;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    img {
+        width: 90px;
+        height: auto;
+    }
+    
+    form {
+        font-size: 1.7em;
+    }
+    h3 {
+        list-style-type: none;
+
+        color: white;
+        text-align: center;
+    }
+    form label {
+        color: rgb(255, 255, 255);
+    }
+    body {
+        text-align: center;
+        font-size: 18px;
+    }
+    header, nav, main, footer, section {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    h3 {
+        color: white;
+        text-align: center;
+        list-style-type: none;
+
+    }
+    body {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100vh;
+        padding-right: 240px;
+        box-sizing: border-box;
+    }
+    h1 {
+        list-style-type: none;
+
+        position: absolute;
+        right: 0;
+        top: 25%;
+        transform: translateY(-50%);
+        text-align: left;
+        width: 775px; /* Adjust as needed */
+    }
+    button {
+        background-color: #d31d10; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #020502;
+    }
