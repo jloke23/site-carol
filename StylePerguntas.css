@@ -83,9 +83,21 @@ font-family: Georgia, serif;
     button:hover {
         background-color: #020502;
     }
-@media screen and (max-width:768px){
-body { text-align: center;
- }
-    img{ text-align: center;
-       }
-}
+@media screen and (max-width: 780px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+            text-align: center;
+        }
+        h1 {
+            position: static;
+            width: auto;
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            max-width: 300px;
+        }
