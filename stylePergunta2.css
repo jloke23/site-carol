@@ -83,3 +83,31 @@ font-family: Georgia, serif;
     button:hover {
         background-color: #020502;
     }
+@media (max-width: 768px) {
+        body {
+            padding-left: 40px;
+            background-position: right center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        h1 {
+            position: static;
+            transform: none;
+            width: auto;
+            text-align: center;
+        }
+
+        header, nav, main, footer, section {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+        }
