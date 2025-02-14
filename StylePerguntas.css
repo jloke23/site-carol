@@ -85,7 +85,7 @@ font-family: Georgia, serif;
     }
 @media (max-width: 768px) {
         body {
-            background-position: 400px;
+            background-position: 200px;
             background-attachment: flex;
             flex-direction: column;
             justify-content: center;
